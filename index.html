@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>calculator</h1>
+    <section>
+    <div class="calculator">
+
+        <!--------screen-------->
+        <div class="screen" id="display">0</div>
+
+        <!--------button-------->
+        <table class="keybord">
+
+            <!---row1--->
+            <tr class="row">
+                <td><button class="btn special" id="delete">AC</button></td>
+                <td><button class="btn special" id="nagative">+/-</button></td>
+                <td><button class="btn special" id="operation">%</button></td>
+                <td><button class="btn operator" id="operation">/</button></td>
+            </tr>
+            <!---row2--->
+            <tr class="row">
+                <td><button class="btn number" id="numbers">7</button></td>
+                <td><button class="btn number" id="numbers">8</button></td>
+                <td><button class="btn number" id="numbers">9</button></td>
+                <td><button class="btn operator" id="operation">*</button></td>
+            </tr>
+            <!---row3-->
+            <tr class="row">
+                <td><button class="btn number" id="numbers">4</button></td>
+                <td><button class="btn number" id="numbers">5</button></td>
+                <td><button class="btn number" id="numbers">6</button></td>
+                <td><button class="btn operator" id="operation">-</button></td>
+            </tr>
+            <!---row4--->
+            <tr class="row">
+                <td><button class="btn number" id="numbers">1</button></td>
+                <td><button class="btn number" id="numbers">2</button></td>
+                <td><button class="btn number" id="numbers">3</button></td>
+                <td><button class="btn operator" id="operation">+</button></td>
+            </tr>
+            <!---row5--->
+            <tr class="row">
+                <td colspan="2"><button class="btn zero" id="numbers"><p id="zero">0</p></button></td>
+                <td><button class="btn decimal" id="point">.</button></td>
+                <td><button class="btn operator" id="equal">=</button></td>
+            </tr>
+        </table>
+    </div>
+</section>
+    <script src="index.js"></script>
+</body>
+</html>
